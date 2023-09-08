@@ -12,7 +12,10 @@ h1{color:white;
   background-color:#8FBC8F ;
   text-align: justify;
   font-weight: 700;
-  padding left: ;: 3%;
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-bottom: 1%;
+  padding-top: 1%;
   margin: 20px;
 }
 html{
