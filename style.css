@@ -1,8 +1,15 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+  
 h1{color:white;
    font-size: 30px;
    background-color: #FF7F50;
    text-align: center;
-   font-family: Fuentes/DancingScript-VariableFont_wght.ttf;
+   font-family: Dancing Script;
+}
+#bienvenida{
+  background-color: ;
 }
 html{
   background-color: #FFE4C4;
