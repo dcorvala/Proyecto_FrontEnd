@@ -10,6 +10,10 @@ h1{color:white;
 }
 #bienvenida{
   background-color:#8FBC8F ;
+  text-align: justify;
+  font-weight: 700;
+  padding: 10px;
+  margin: 20px;
 }
 html{
   background-color: #FFE4C4;
