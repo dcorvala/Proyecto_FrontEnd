@@ -1,7 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
 
-  
 h1{color:white;
    font-size: 30px;
    background-color: #FF7F50;
@@ -17,6 +17,7 @@ h1{color:white;
   padding-bottom: 1%;
   padding-top: 1%;
   margin: 20px;
+  font-family:'Handlee', cursive;
 }
 html{
   background-color: #FFE4C4;
