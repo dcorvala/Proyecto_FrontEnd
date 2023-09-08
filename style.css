@@ -1,4 +1,8 @@
-h1{color:blue;
-   font-size: 24px;
-   background-color: #AFEEEE;
+h1{color:white;
+   font-size: 30px;
+   background-color: #FF7F50;
+   text-align: center;
+}
+html{
+  background-color: #FFE4C4;
 }
