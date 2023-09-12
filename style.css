@@ -21,6 +21,13 @@ h1{color:white;
 }
 #navegacion{
   background-color: #00FFFF;
+  text-align: justify;
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-bottom: 1%;
+  padding-top: 1%;
+  margin: 20px;
+  
 }
 html{
   background-color: #FFE4C4;
