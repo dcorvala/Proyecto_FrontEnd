@@ -40,11 +40,11 @@ h1{color:white;
   
 }
 #navegacion a{
-  padding: ;
+  padding: 10px;
 }
-#navegacion>a:hover{
-  color: #00FFFF;
-  background-color: white;
+  #navegacion>a:hover{
+    color: #00FFFF;
+    background-color: white;
   }
 html{
   background-color: #FFE4C4;
