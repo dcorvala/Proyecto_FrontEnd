@@ -49,6 +49,7 @@ h1{color:white;
   #navegacion #barra_nav li>a:hover{
     color: #00FFFF;
     background-color: white;
+    transition: 1s ;
   }
   #navegacion #barra_nav li>a:active{
     color: #00FFFF;
