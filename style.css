@@ -45,7 +45,7 @@ h1{color:white;
   #navegacion #barra_nav li{
     list-style-type: none ;
   }
-  #navegacion>a:hover{
+  #navegacion #barra>a:hover{
     color: #00FFFF;
     background-color: white;
   }
