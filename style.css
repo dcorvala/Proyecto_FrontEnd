@@ -39,6 +39,10 @@ h1{color:white;
   margin: 20px;
   
 }
+#navegacion>a:hover{
+  color: #00FFFF;
+  background-color: white;
+  }
 html{
   background-color: #FFE4C4;
 }
