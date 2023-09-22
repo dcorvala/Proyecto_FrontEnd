@@ -44,11 +44,15 @@ h1{color:white;
 }
   #navegacion #barra_nav li{
     list-style-type: none ;
+    display: inline;
   }
-  #navegacion #barra>a:hover{
+  #navegacion #barra_nav li>a:hover{
     color: #00FFFF;
     background-color: white;
   }
+    #navegacion #barra_nav li>a{
+      text-decoration: none;
+    }
 html{
   background-color: #FFE4C4;
 }
