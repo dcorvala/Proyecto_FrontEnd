@@ -43,11 +43,12 @@ h1{color:white;
   padding: 10px;
 }
   #navegacion #barra_nav li{
+    color: blue;
     list-style-type: none ;
     display: inline;
   }
   #navegacion #barra_nav li>a:hover{
-    color: #00FFFF;
+    color: blue;
     background-color: white;
     transition: 1s ;
   }
