@@ -1,0 +1,39 @@
+9. Desarrollos Futuros y Mejoras Potenciales (Opcional)
+- Lista de elementos, características o mejoras que consideran deseables
+para futuras iteraciones o actualizaciones del proyecto. Esto puede
+incluir funcionalidades adicionales, mejoras de diseño, expansión de
+contenido, integración con otras tecnologías, entre otros.
+10. Contacto:
+- Información de contacto del equipo y cómo los usuarios pueden obtener
+soporte en caso de problemas o preguntas.
+
+- viendo algunas páginas pense que el menú podría ser:
+
+Recetas 	Libros		Cursos		Contacto	 
+
+- Recestas:
+Sería un menú desplegable que en principio tendría las opciones estáticas pero en una segunta etapa poder tomar las opciones de la base 
+y que se despliegle según lo guardado (funcionalidad que sería propuesta como mejora en la segunta etapa)
+
+- Libros: (se podría ver si se accede estan registrados o se muestra en gral)
+Con libros para descarga, podría solicitarse registro/login para descargarlos
+Libros relacionados a la cocina, recetas, etc
+
+- Cursos
+Pida login para poder acceder y una vez logueado muestre los cursos
+
+- Contacto (por el punto 10)
+Desde el cual puedan enviar sus consultas o pedir alguna receta en especial
+
+En la parte derecha arriba podría las opciones de login/registro
+
+- Registro (por el punto 9)
+Para acceder a cursos de cocina, cursos de nutrición, etc
+Permita registrarse al usuario y generar un user y pass, funcionalidad que sería propuesta como mejora en la segunta etapa
+
+- Login
+que permita loguearse a los usuarios registrados, funcionalidad que sería propuesta como mejora en la segunta etapa
+
+
+
+
