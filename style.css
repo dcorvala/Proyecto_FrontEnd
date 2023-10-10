@@ -20,9 +20,9 @@ h1{color:white;
    font-family: Dancing Script;
 }
 header{
-  background-image: "imagenes/Portada-1080x675.jpg";
+  background-image: url('imagenes/Portada-1080x675.jpg');
   background-size: cover;
- }
+}
 
 #bienvenida{
   background-color:#8FBC8F ;
