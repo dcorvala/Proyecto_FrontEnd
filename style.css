@@ -126,6 +126,7 @@ header{
 .caja1 {
   background-image: url('imagenes/dieta-equilibrada-plato-completo-y-sano.jpg');
   background-color: lightblue; /* Un fondo de color para caja 1 */
+  font-size:x-large;
 }
 
 .caja2 {
