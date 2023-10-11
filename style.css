@@ -88,6 +88,12 @@ header{
     line-height: 100px;
 }
 
+@media (min-width: 768px) {
+  .grid-container {
+      grid-template-columns: repeat(2, 1fr);
+  }
+}
+
 @media (max-width: 767px) {
   .grid-container {
       grid-template-columns: 1fr;
