@@ -4,7 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
 
 html{
-  background-color: #FFE4C4;
+  background-color: #7cf171;
   scroll-behavior:smooth;
 }
 
@@ -31,6 +31,8 @@ h1{color:rgb(0, 0, 0);
 header{
   background-image: url('imagenes/Portadav2.jpg');
   background-size: cover;
+  border: 2px solid black; /* Grosor y color del borde */
+  
 }
 
 #barra_nav {
@@ -110,6 +112,26 @@ header{
     border: 1px solid blue;
     text-align: center;
     line-height: 100px;
+}
+
+.caja1 {
+  background-image: url('imagenes/dieta-equilibrada-plato-completo-y-sano.jpg');
+  background-color: lightblue; /* Un fondo de color para caja 1 */
+}
+
+.caja2 {
+  background-image: url('ruta_de_tu_imagen2.jpg');
+  background-color: lightblue; /* Un fondo de color para caja 2 */
+}
+
+.caja3 {
+  background-image: url('ruta_de_tu_imagen3.jpg');
+  background-color: lightblue; /* Un fondo de color para caja 3 */
+}
+
+.caja4 {
+  background-image: url('ruta_de_tu_imagen4.jpg');
+  background-color: lightblue; /* Un fondo de color para caja 4 */
 }
 
 @media (min-width: 768px) {
