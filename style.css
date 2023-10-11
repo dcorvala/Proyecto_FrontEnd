@@ -24,7 +24,7 @@ h1{color:white;
 
 @media (max-width: 768px) {
   h1{
-      font-size: 16px; /* Reduzca el tamaño de fuente para dispositivos móviles */
+      font-size: 35px; /* Reduzca el tamaño de fuente para dispositivos móviles */
       
   }
 }
