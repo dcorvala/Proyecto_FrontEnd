@@ -21,6 +21,12 @@ h1{color:white;
    text-align: center;
    font-family: Dancing Script;
 }
+
+@media (max-width: 768px) {
+  h1{
+      font-size: 10px; /* Reduzca el tamaño de fuente para dispositivos móviles */
+  }
+}
 header{
   background-image: url('imagenes/Portada-1080x675.jpg');
   background-size: cover;
