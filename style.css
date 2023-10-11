@@ -103,6 +103,10 @@ header{
 .grid-container {
     display: grid;
     grid-gap: 10px;
+
+    margin: 0 auto; /* Agrega un margen horizontal centrado en la página */
+    max-width: 1200px; /* Establece un ancho máximo para el contenedor */
+    padding: 0 20px; /* Agrega espacio entre el contenido y el margen de la página */
 }
 
 .caja {
@@ -120,7 +124,7 @@ header{
 }
 
 .caja2 {
-  background-image: url('ruta_de_tu_imagen2.jpg');
+  background-image: url('imagenes/date_un_gusto.jpg');
   background-color: lightblue; /* Un fondo de color para caja 2 */
 }
 
