@@ -189,17 +189,20 @@ header{
   }
 }
 
-.ft{
-  font-size:larger;
-  background-image:url('imagenes/fondo.jpg') ;
-  background-color:#6ee66e ;
+.ft {
+  font-size: larger;
+  background-image: url('imagenes/fondo.jpg');
+  background-color: #6ee66e;
   text-align: justify;
   font-weight: 700;
-  padding: 2%; 
+  padding: 2%;
   margin: 20px;
-  font-family:'Handlee', cursive;
-  border: 2px solid black; /* Agrega un borde negro de 2 píxeles */
-
+  font-family: 'Handlee', cursive;
+  border: 2px solid black;
+  background-size: cover; /* Ajusta la imagen de fondo al contenedor */
+  background-repeat: no-repeat; /* Evita la repetición de la imagen */
+  background-attachment: fixed; /* Fija la imagen de fondo */
 }
+
 
 
