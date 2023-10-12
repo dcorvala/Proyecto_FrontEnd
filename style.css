@@ -136,12 +136,25 @@ header{
     line-height: 100px;
 }
 
+.no_subrayar{
+  text-decoration: none;
+  color: black;
+  font-size: xx-large;
+}
+
+.no_subrayar:hover {
+  color: blue;
+  background-color: white;
+  transition: 1s;
+}
+
 .caja1 {
   background-image: url('imagenes/dieta-equilibrada-plato-completo-y-sano.jpg');
   background-color: lightblue; /* Un fondo de color para caja 1 */
   font-family: 'Kalam', cursive;
   font-size: x-large;
 }
+
 
 .caja2 {
   background-image: url('imagenes/date_un_gusto.jpg');
@@ -175,3 +188,7 @@ header{
       grid-template-columns: 1fr;
   }
 }
+
+/* Elimina el subrayado solo de los enlaces con la clase "no-subrayar" */
+
+
