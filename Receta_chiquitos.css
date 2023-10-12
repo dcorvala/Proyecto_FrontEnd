@@ -1,29 +1,54 @@
+
+html{
+    background-color: rgb(37, 166, 226);
+}
+#present_chiquitos {
+    font-size: 18px; /* Cambia el tamaño de fuente */
+    font-weight: bold; /* Puedes ajustar el peso de la fuente según lo desees */
+    text-align: center; /* Centra el texto horizontalmente */
+    background-color: #f59d63; /* Cambia el color de fondo */
+    padding: 20px; /* Agrega espaciado interno */
+    border: 1px solid black; /* Agrega un borde negro */
+    margin: 20px; /* Agrega margen externo */
+    font-family: 'Handlee', cursive; /* Cambia la fuente del texto */
+    color: #000080; /* Cambia el color del texto */
+  }
+
+
 .grid-container {
     display: grid;
-    grid-template-columns: 75% 25%; /* Columna de texto ocupa el 75%, fotos el 25% */
+    grid-template-columns: 1fr; /* Inicialmente, una sola columna */
     gap: 20px; /* Espacio entre elementos */
-    max-width: 100%; /* Ancho máximo del 100% */
-    overflow: hidden; /* Oculta el contenido que desborde */
   }
   
   .texto {
     background-color: lightblue; /* Fondo de la columna de texto */
     padding: 20px; /* Espaciado interno para el texto */
-    width: 100%; /* Ancho completo de la columna de texto en pantallas más pequeñas */
-    max-width: 75%; /* Máximo ancho del 75% en pantallas más grandes */
+    border: 1px solid black;
   }
   
   .fotos {
     display: grid;
     gap: 10px; /* Espacio entre las fotos */
-    width: 20%; /* Ancho completo de la pantalla */
-    max-width: 100%; /* Máximo ancho del 100% */
   }
   
   .foto {
-    background-color: lightgray; /* Fondo de las cajas de fotos */
+    background-color: lightblue; /* Fondo de las cajas de fotos */
     padding: 20px; /* Espaciado interno para las fotos */
     text-align: center;
-    max-width: 100%; /* Máximo ancho de la imagen al 100% */
+    border: 1px solid black;
   }
-   
+  
+  /* Ajusta el tamaño de las imágenes dentro de las cajas de fotos */
+  .foto img {
+    max-width: 100%; /* El ancho máximo es el 100% del contenedor */
+    height: auto; /* La altura se ajusta automáticamente para mantener la proporción */
+  }
+  
+  @media (min-width: 768px) {
+    .grid-container {
+      grid-template-columns: 2fr 1fr; /* Cambia a dos columnas con la columna de texto más ancha */
+    }
+  }
+  
+  
