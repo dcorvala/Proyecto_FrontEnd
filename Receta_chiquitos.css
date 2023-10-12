@@ -1,28 +1,29 @@
 .grid-container {
     display: grid;
-    grid-template-columns: 1fr; /* Inicialmente, una sola columna */
+    grid-template-columns: 75% 25%; /* Columna de texto ocupa el 75%, fotos el 25% */
     gap: 20px; /* Espacio entre elementos */
+    max-width: 100%; /* Ancho máximo del 100% */
+    overflow: hidden; /* Oculta el contenido que desborde */
   }
   
   .texto {
     background-color: lightblue; /* Fondo de la columna de texto */
     padding: 20px; /* Espaciado interno para el texto */
+    width: 100%; /* Ancho completo de la columna de texto en pantallas más pequeñas */
+    max-width: 75%; /* Máximo ancho del 75% en pantallas más grandes */
   }
   
   .fotos {
     display: grid;
     gap: 10px; /* Espacio entre las fotos */
+    width: 20%; /* Ancho completo de la pantalla */
+    max-width: 100%; /* Máximo ancho del 100% */
   }
   
   .foto {
     background-color: lightgray; /* Fondo de las cajas de fotos */
     padding: 20px; /* Espaciado interno para las fotos */
     text-align: center;
+    max-width: 100%; /* Máximo ancho de la imagen al 100% */
   }
-  
-  @media (min-width: 768px) {
-    .grid-container {
-      grid-template-columns: 1fr 2fr; /* En pantallas más grandes, dos columnas */
-    }
-  }
-  
+   
