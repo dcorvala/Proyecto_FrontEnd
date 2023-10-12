@@ -74,7 +74,7 @@ header{
 
 #bienvenida{
   font-size:larger;
-  background-color:#8FBC8F ;
+  background-color:#e786cf ;
   text-align: justify;
   font-weight: 700;
   padding: 2%; 
@@ -144,7 +144,7 @@ header{
 
 .no_subrayar:hover {
   color: blue;
-  background-color: white;
+  background-color: rgb(252, 161, 57);
   transition: 1s;
 }
 
@@ -189,20 +189,16 @@ header{
   }
 }
 
-.ft {
-  font-size: larger;
-  background-image: url('imagenes/fondo.jpg');
-  background-color: #6ee66e;
+#fondo{
+  font-size:larger;
   text-align: justify;
   font-weight: 700;
-  padding: 2%;
+  padding: 2%; 
   margin: 20px;
-  font-family: 'Handlee', cursive;
-  border: 2px solid black;
-  background-size: cover; /* Ajusta la imagen de fondo al contenedor */
-  background-repeat: no-repeat; /* Evita la repetición de la imagen */
-  background-attachment: fixed; /* Fija la imagen de fondo */
+  font-family:'Handlee', cursive;
+  border: 2px solid black; /* Agrega un borde negro de 2 píxeles */
 }
+
 
 
 
