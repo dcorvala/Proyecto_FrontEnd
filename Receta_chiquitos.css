@@ -1,0 +1,28 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr; /* Inicialmente, una sola columna */
+    gap: 20px; /* Espacio entre elementos */
+  }
+  
+  .texto {
+    background-color: lightblue; /* Fondo de la columna de texto */
+    padding: 20px; /* Espaciado interno para el texto */
+  }
+  
+  .fotos {
+    display: grid;
+    gap: 10px; /* Espacio entre las fotos */
+  }
+  
+  .foto {
+    background-color: lightgray; /* Fondo de las cajas de fotos */
+    padding: 20px; /* Espaciado interno para las fotos */
+    text-align: center;
+  }
+  
+  @media (min-width: 768px) {
+    .grid-container {
+      grid-template-columns: 1fr 2fr; /* En pantallas más grandes, dos columnas */
+    }
+  }
+  
