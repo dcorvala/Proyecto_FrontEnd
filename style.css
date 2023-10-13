@@ -134,18 +134,20 @@ header{
     border: 1px solid rgb(1, 1, 12);
     text-align: center;
     line-height: 100px;
+    font-size: xx-large;
 }
+
+@media (max-width: 768px) {
+  .caja{
+      font-size: 35px; /* Reduzca el tamaño de fuente para dispositivos móviles */
+  }
 
 .no_subrayar{
   text-decoration: none;
   color: black;
-  font-size: xx-large;
+  /*font-size: xx-large;*/
 }
 
-@media (max-width: 768px) {
-  .no_subrayar{
-      font-size: 35px; /* Reduzca el tamaño de fuente para dispositivos móviles */
-  }
 
 .no_subrayar:hover {
   color: black;
