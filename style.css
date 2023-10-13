@@ -142,8 +142,13 @@ header{
   font-size: xx-large;
 }
 
+@media (max-width: 768px) {
+  .no_subrayar{
+      font-size: 35px; /* Reduzca el tamaño de fuente para dispositivos móviles */
+  }
+
 .no_subrayar:hover {
-  color: blue;
+  color: black;
   background-color: rgb(252, 161, 57);
   transition: 1s;
 }
