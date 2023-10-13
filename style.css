@@ -184,6 +184,7 @@ header{
   .caja {
     font-size: 20px; /* Tamaño de fuente más pequeño para dispositivos móviles */
   }
+}
 
 @media (min-width: 768px) {
   .grid-container {
