@@ -182,7 +182,7 @@ header{
 
 @media (max-width: 767px) {
   .caja {
-    font-size: 20px; /* Tamaño de fuente más pequeño para dispositivos móviles */
+    font-size: 18px; /* Tamaño de fuente más pequeño para dispositivos móviles */
   }
 }
 
