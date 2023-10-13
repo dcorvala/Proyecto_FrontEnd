@@ -3,33 +3,33 @@ html{
     background-color: rgb(37, 166, 226);
 }
 #present_chiquitos {
-    font-size: 18px; /* Cambia el tamaño de fuente */
-    font-weight: bold; /* Puedes ajustar el peso de la fuente según lo desees */
-    text-align: center; /* Centra el texto horizontalmente */
-    background-color: #f59d63; /* Cambia el color de fondo */
-    padding: 20px; /* Agrega espaciado interno */
-    border: 1px solid black; /* Agrega un borde negro */
-    margin: 20px; /* Agrega margen externo */
-    font-family: 'Handlee', cursive; /* Cambia la fuente del texto */
-    color: #000080; /* Cambia el color del texto */
+    font-size: 18px; /* Tamaño de letra */
+    font-weight: bold; /* Negrita */
+    text-align: center; 
+    background-color: #f59d63; 
+    padding: 20px; 
+    border: 1px solid black; 
+    margin: 20px; 
+    font-family: 'Handlee', cursive; 
+    color: #000080; /* color del texto */
   }
 
 
 .grid-container {
     display: grid;
     grid-template-columns: 1fr; /* Inicialmente, una sola columna */
-    gap: 20px; /* Espacio entre elementos */
+    gap: 20px; /* Espacio entre cajas */
   }
   
   .texto {
-    background-color: lightblue; /* Fondo de la columna de texto */
-    padding: 20px; /* Espaciado interno para el texto */
+    background-color: lightblue; /* Fondo de la columna de la receta */
+    padding: 20px; 
     border: 1px solid black;
   }
   
   .fotos {
     display: grid;
-    gap: 10px; /* Espacio entre las fotos */
+    gap: 10px; /* Espacio entre fotos */
   }
   
   .foto {
@@ -39,7 +39,7 @@ html{
     border: 1px solid black;
   }
   
-  /* Ajusta el tamaño de las imágenes dentro de las cajas de fotos */
+  /* Tamaño de las imágenes dentro de las cajas de fotos */
   .foto img {
     max-width: 100%; /* El ancho máximo es el 100% del contenedor */
     height: auto; /* La altura se ajusta automáticamente para mantener la proporción */
@@ -47,7 +47,7 @@ html{
   
   @media (min-width: 768px) {
     .grid-container {
-      grid-template-columns: 2fr 1fr; /* Cambia a dos columnas con la columna de texto más ancha */
+      grid-template-columns: 2fr 1fr; /* Cambia a dos columnas con la columna de texto más ancha en PC*/
     }
   }
   

@@ -136,6 +136,8 @@ header{
     line-height: 100px;
 }
 
+
+
 .no_subrayar{
   text-decoration: none;
   color: black;
@@ -177,17 +179,26 @@ header{
   font-size: x-large;
 }
 
+@media (max-width: 767px) {
+  .caja {
+    font-size: 12px; /* Tamaño de fuente más pequeño para dispositivos móviles */
+  }
+
 @media (min-width: 768px) {
   .grid-container {
       grid-template-columns: repeat(2, 1fr);
+      
   }
 }
 
 @media (max-width: 767px) {
   .grid-container {
       grid-template-columns: 1fr;
+      
   }
 }
+
+
 
 #fondo{
   font-size:larger;
@@ -198,6 +209,8 @@ header{
   font-family:'Handlee', cursive;
   border: 2px solid black; /* Agrega un borde negro de 2 píxeles */
 }
+
+
 
 
 
