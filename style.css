@@ -122,8 +122,8 @@ header{
     display: grid;
     grid-gap: 10px;
 
-    margin: 0 auto; /* Agrega un margen horizontal centrado en la página */
-    max-width: 1200px; /* Establece un ancho máximo para el contenedor */
+    margin: 0 auto; /* Margen horizontal centrado en la página */
+    max-width: 1200px; /* Ancho máximo para el contenedor */
     padding: 0 20px; /* Agrega espacio entre el contenido y el margen de la página */
 }
 
@@ -134,18 +134,27 @@ header{
     border: 1px solid rgb(1, 1, 12);
     text-align: center;
     line-height: 100px;
+    font-size: xx-large;
 }
 
+<<<<<<< HEAD
 
+=======
+@media (max-width: 768px) {
+  .caja{
+      font-size: 35px; /* Reduzca el tamaño de fuente para dispositivos móviles */
+  }
+>>>>>>> 75f45bd54e40ab7464bb63ca6e25aee54938141a
 
 .no_subrayar{
   text-decoration: none;
   color: black;
-  font-size: xx-large;
+  /*font-size: xx-large;*/
 }
 
+
 .no_subrayar:hover {
-  color: blue;
+  color: black;
   background-color: rgb(252, 161, 57);
   transition: 1s;
 }
@@ -154,7 +163,7 @@ header{
   background-image: url('imagenes/dieta-equilibrada-plato-completo-y-sano.jpg');
   background-color: lightblue; /* Un fondo de color para caja 1 */
   font-family: 'Kalam', cursive;
-  font-size: x-large;
+  /*font-size: x-large;*/
 }
 
 
@@ -162,21 +171,21 @@ header{
   background-image: url('imagenes/date_un_gusto.jpg');
   background-color: lightblue; /* Un fondo de color para caja 2 */
   font-family: 'Kalam', cursive;
-  font-size: x-large;
+  /*font-size: x-large;*/
 }
 
 .caja3 {
   background-image: url('ruta_de_tu_imagen3.jpg');
   background-color: lightblue; /* Un fondo de color para caja 3 */
   font-family: 'Kalam', cursive;
-  font-size: x-large;
+  font-size: /*x-large*/;
 }
 
 .caja4 {
   background-image: url('ruta_de_tu_imagen4.jpg');
   background-color: lightblue; /* Un fondo de color para caja 4 */
   font-family: 'Kalam', cursive;
-  font-size: x-large;
+  font-size: /*x-large;*/
 }
 
 @media (max-width: 767px) {
