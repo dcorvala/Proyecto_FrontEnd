@@ -137,14 +137,6 @@ header{
     font-size: xx-large;
 }
 
-<<<<<<< HEAD
-
-=======
-@media (max-width: 768px) {
-  .caja{
-      font-size: 35px; /* Reduzca el tamaño de fuente para dispositivos móviles */
-  }
->>>>>>> 75f45bd54e40ab7464bb63ca6e25aee54938141a
 
 .no_subrayar{
   text-decoration: none;
