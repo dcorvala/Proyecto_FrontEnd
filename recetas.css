@@ -1,0 +1,53 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+}
+
+.receta {
+    background-color: #fff;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.receta h2 {
+    color: #FF6600; /* Naranja, un color común en la cocina argentina */
+}
+
+.receta ul, .receta ol {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.volver {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.volver a {
+    text-decoration: none;
+    background-color: #FF6600; /* Naranja */
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.volver a:hover {
+    background-color: #CC4400; /* Naranja más oscuro en el hover */
+}
+
