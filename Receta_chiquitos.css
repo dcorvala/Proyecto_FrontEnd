@@ -50,5 +50,22 @@ html{
       grid-template-columns: 2fr 1fr; /* Cambia a dos columnas con la columna de texto más ancha en PC*/
     }
   }
+
+  .volver {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.volver a {
+    text-decoration: none;
+    background-color: #1e50bb; 
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.volver a:hover {
+    background-color: #181088; 
+}
   
   
