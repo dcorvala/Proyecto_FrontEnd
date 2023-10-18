@@ -7,6 +7,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    font-size: 16px;
 }
 
 h1 {
@@ -45,7 +46,7 @@ button {
 }
 
 button:hover {
-    background-color: #1a910b;
+    background-color: #337da8;
 }
 
 #results {
@@ -112,5 +113,20 @@ button:hover {
 
 #volver_a_inicio:hover {
     background-color: rgb(138, 185, 201);
+}
+
+/* Consulta de medios para dispositivos móviles */
+@media (max-width: 767px) {
+    h1 {
+        font-size: 24px; /* Reducir el tamaño de fuente del título en dispositivos móviles */
+    }
+
+    #query {
+        width: 100%; /* Asegurar que el campo de búsqueda ocupe todo el ancho disponible */
+    }
+
+    .recipe {
+        width: 100%; /* Hacer que las recetas ocupen todo el ancho en dispositivos móviles */
+    }
 }
 

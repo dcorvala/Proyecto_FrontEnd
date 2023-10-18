@@ -256,6 +256,12 @@ footer {
   .footer-logo img {
     display: none;
   }
+ /* Centra el contenido de las dos columnas */
+  .footer-content {
+   text-align: center;
+  }
+
+
 }
 
 .footer-contact p {
