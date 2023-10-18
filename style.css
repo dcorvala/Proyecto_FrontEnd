@@ -74,7 +74,7 @@ header{
 
 #bienvenida{
   font-size:larger;
-  background-color:#e786cf ;
+  background-color:#e9b4dc ;
   text-align: justify;
   font-weight: 700;
   padding: 2%; 
@@ -83,7 +83,7 @@ header{
   border: 2px solid black; /* Agrega un borde negro de 2 píxeles */
 }
 #navegacion{
-  background-color: #f38ddd;
+  background-color: #e9b4dc;
   font-family: Handlee;
   font-weight: 700;
   text-align: center;
@@ -147,12 +147,12 @@ header{
 
 .no_subrayar:hover {
   color: black;
-  background-color: rgb(252, 161, 57);
+  background-color: rgb(107, 153, 238);
   transition: 1s;
 }
 
 .caja1 {
-  background-image: url('imagenes/dieta-equilibrada-plato-completo-y-sano.jpg');
+  
   background-color: lightblue; /* Un fondo de color para caja 1 */
   font-family: 'Kalam', cursive;
   /*font-size: x-large;*/
@@ -160,21 +160,21 @@ header{
 
 
 .caja2 {
-  background-image: url('imagenes/date_un_gusto.jpg');
+  
   background-color: lightblue; /* Un fondo de color para caja 2 */
   font-family: 'Kalam', cursive;
   /*font-size: x-large;*/
 }
 
 .caja3 {
-  background-image: url('ruta_de_tu_imagen3.jpg');
+  
   background-color: lightblue; /* Un fondo de color para caja 3 */
   font-family: 'Kalam', cursive;
   font-size: /*x-large*/;
 }
 
 .caja4 {
-  background-image: url('ruta_de_tu_imagen4.jpg');
+  
   background-color: lightblue; /* Un fondo de color para caja 4 */
   font-family: 'Kalam', cursive;
   font-size: /*x-large;*/
@@ -202,18 +202,79 @@ header{
 
 
 
-#fondo{
-  font-size:larger;
-  text-align: justify;
-  font-weight: 700;
-  padding: 2%; 
-  margin: 20px;
-  font-family:'Handlee', cursive;
-  border: 2px solid black; /* Agrega un borde negro de 2 píxeles */
+#fondo {
+  background-color: #4f78e7;
+  text-align: center;
+  padding: 20px 0;
 }
 
+#fondo img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
 
+#fondo p {
+  font-size: 35px;
+  color: #333;
+  margin-top: 20px;
+  font-family: 'Kalam', cursive;
+}
 
+/* Estilos generales del footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  font-size: 14px;
+  text-align: center;
+}
 
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
 
+/* Estilos para los elementos del footer */
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-logo img {
+  max-width: 100px;
+}
+
+.footer-contact p {
+  margin: 5px 0;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin: 5px 0;
+}
+
+.footer-links a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+/* Estilos para el copyright */
+.copyright {
+  margin-top: 20px;
+  border-top: 1px solid #555;
+  padding-top: 10px;
+  font-size: 12px;
+}
 

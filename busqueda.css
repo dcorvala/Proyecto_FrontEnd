@@ -3,7 +3,7 @@
 
 
 body {
-    background-color: lightblue;
+    background-color: #4f78e7;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -13,7 +13,7 @@ h1 {
     text-align: center;
     font-size: 28px;
     padding: 20px 0;
-    background-color: #72e678;
+    background-color: lightblue;
     color: #030303;
     margin: 0;
     font-family: 'Kalam', cursive;
@@ -35,7 +35,7 @@ h1 {
 }
 
 button {
-    background-color: #72e678;
+    background-color: lightblue;
     color: #111111;
     border: 2px solid black;
     padding: 10px 20px;
@@ -99,7 +99,7 @@ button:hover {
 
 #volver_a_inicio {
     display: block;
-    background-color: #72e678;
+    background-color: lightblue;
     color: #0c0c0c;
     text-align: center;
     padding: 10px 20px;
@@ -111,6 +111,6 @@ button:hover {
 }
 
 #volver_a_inicio:hover {
-    background-color: #49a71e;
+    background-color: rgb(138, 185, 201);
 }
 
