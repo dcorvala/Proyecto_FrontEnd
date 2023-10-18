@@ -222,12 +222,7 @@ header{
   font-family: 'Kalam', cursive;
 }
 
-/* Establecemos que la imagen de fondo desaparezca en dispositivos móviles (ancho máximo de 767px) */
-@media (max-width: 767px) {
-  #fondo img {
-    display: none;
-  }
-}
+
 
 
 /* Estilos generales del footer */
