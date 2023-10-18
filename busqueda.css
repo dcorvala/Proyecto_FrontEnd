@@ -127,6 +127,17 @@ button:hover {
 
     .recipe {
         width: 100%; /* Hacer que las recetas ocupen todo el ancho en dispositivos móviles */
+        margin: 10px 0; /* Agregar un espacio entre las recetas en dispositivos móviles */
+    }
+
+    #volver_a_inicio {
+        font-size: 14px; /* Reducir el tamaño del botón de regreso en dispositivos móviles */
+        padding: 8px 16px; /* Ajustar el padding del botón de regreso en dispositivos móviles */
+    }
+
+    /* Añadir un estilo para que los resultados se muestren en una única columna */
+    #results {
+        display: block;
     }
 }
 
