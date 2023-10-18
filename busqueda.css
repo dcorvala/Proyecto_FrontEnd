@@ -122,7 +122,8 @@ button:hover {
     }
 
     #query {
-        width: 100%; /* Asegurar que el campo de búsqueda ocupe todo el ancho disponible */
+        width: 100%;
+        box-sizing: border-box; /* Asegura que el padding y el borde estén incluidos en el ancho del elemento */
     }
 
     .recipe {
