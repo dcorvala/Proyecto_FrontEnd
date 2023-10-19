@@ -3,51 +3,50 @@ html{
     background-color: rgb(37, 166, 226);
 }
 #present_chiquitos {
-    font-size: 18px; /* Tamaño de letra */
-    font-weight: bold; /* Negrita */
+    font-size: 18px; 
+    font-weight: bold; 
     text-align: center; 
     background-color: #f59d63; 
     padding: 20px; 
     border: 1px solid black; 
     margin: 20px; 
     font-family: 'Handlee', cursive; 
-    color: #000080; /* color del texto */
+    color: #000080; 
   }
 
 
 .grid-container {
     display: grid;
-    grid-template-columns: 1fr; /* Inicialmente, una sola columna */
-    gap: 20px; /* Espacio entre cajas */
+    grid-template-columns: 1fr; 
+    gap: 20px; 
   }
   
   .texto {
-    background-color: lightblue; /* Fondo de la columna de la receta */
+    background-color: lightblue; /
     padding: 20px; 
     border: 1px solid black;
   }
   
   .fotos {
     display: grid;
-    gap: 10px; /* Espacio entre fotos */
-  }
+    gap: 10px; 
   
   .foto {
-    background-color: lightblue; /* Fondo de las cajas de fotos */
-    padding: 20px; /* Espaciado interno para las fotos */
+    background-color: lightblue; 
+    padding: 20px; 
     text-align: center;
     border: 1px solid black;
   }
   
-  /* Tamaño de las imágenes dentro de las cajas de fotos */
+  
   .foto img {
-    max-width: 100%; /* El ancho máximo es el 100% del contenedor */
-    height: auto; /* La altura se ajusta automáticamente para mantener la proporción */
+    max-width: 100%; 
+    height: auto; 
   }
   
   @media (min-width: 768px) {
     .grid-container {
-      grid-template-columns: 2fr 1fr; /* Cambia a dos columnas con la columna de texto más ancha en PC*/
+      grid-template-columns: 2fr 1fr; 
     }
   }
 
@@ -65,7 +64,4 @@ html{
 }
 
 .volver a:hover {
-    background-color: #181088; 
-}
-  
-  
+    background-color: #181088;  

@@ -50,7 +50,7 @@ h1 {
     background-color: #337da8;
 }
 
-/* Estilos para dispositivos móviles */
+
 @media (max-width: 768px) {
     h1 {
         font-size: 28px;

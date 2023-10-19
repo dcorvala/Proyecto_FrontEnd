@@ -19,7 +19,7 @@ h1 {
   padding: 20px 0;
   background-color: lightblue;
   color: #030303;
-  margin: 0;
+  margin: 2px;
   font-family: 'Kalam', cursive;
   border: 2px solid black;
   grid-area: heading;
@@ -54,7 +54,7 @@ h1 {
     #query {
         width: 80%; 
         padding: 15px;
-        font-size: 20px;
+        font-size: 12px;
     }
 }
 
@@ -89,10 +89,6 @@ button {
         grid-template-columns: 1fr; 
     }
 }
-
-
-
-
 
 .recipe {
   border: 1px solid #ccc;

@@ -4,8 +4,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap');
 
-
-
 html{
   background-color: #4f78e7;
   scroll-behavior:smooth;
@@ -27,14 +25,15 @@ h1{color:rgb(0, 0, 0);
 
 @media (max-width: 768px) {
   h1{
-      font-size: 35px; /* Reduzca el tamaño de fuente para dispositivos móviles */
+      font-size: 35px; 
       
   }
 }
+
 header{
-  background-image: url('imagenes/Portadav2.jpg');
+  background-image: url('../imagenes/Portadav2.jpg');
   background-size: cover;
-  border: 2px solid black; /* Grosor y color del borde */
+  border: 2px solid black; 
   
 }
 
@@ -80,8 +79,9 @@ header{
   padding: 2%; 
   margin: 20px;
   font-family:'Handlee', cursive;
-  border: 2px solid black; /* Agrega un borde negro de 2 píxeles */
+  border: 2px solid black; 
 }
+
 #navegacion{
   background-color: #e9b4dc;
   font-family: Handlee;
@@ -94,26 +94,32 @@ header{
   margin: 20px;
   
 }
+
 #navegacion a{
   padding: 10px;
 }
-  #navegacion #barra_nav li{
+
+
+#navegacion #barra_nav li{
     color: blue;
     list-style-type: none ;
     display: inline;
-  }
-  #navegacion #barra_nav li>a:hover{
+}
+
+#navegacion #barra_nav li>a:hover{
     color: blue;
     background-color: white;
     transition: 1s ;
-  }
-  #navegacion #barra_nav li>a:active{
+}
+
+#navegacion #barra_nav li>a:active{
     color: #00FFFF;
     background-color: white;
-  }
-    #navegacion #barra_nav li>a{
+}
+    
+#navegacion #barra_nav li>a{
       text-decoration: none;
-    }
+}
 
 
     
@@ -122,9 +128,9 @@ header{
     display: grid;
     grid-gap: 10px;
 
-    margin: 0 auto; /* Margen horizontal centrado en la página */
-    max-width: 1200px; /* Ancho máximo para el contenedor */
-    padding: 0 20px; /* Agrega espacio entre el contenido y el margen de la página */
+    margin: 0 auto; 
+    max-width: 1200px; 
+    padding: 0 20px; 
 }
 
 .caja {
@@ -141,7 +147,7 @@ header{
 .no_subrayar{
   text-decoration: none;
   color: black;
-  /*font-size: xx-large;*/
+  
 }
 
 
@@ -153,36 +159,36 @@ header{
 
 .caja1 {
   
-  background-color: lightblue; /* Un fondo de color para caja 1 */
+  background-color: lightblue; 
   font-family: 'Kalam', cursive;
-  /*font-size: x-large;*/
+  
 }
 
 
 .caja2 {
   
-  background-color: lightblue; /* Un fondo de color para caja 2 */
+  background-color: lightblue; 
   font-family: 'Kalam', cursive;
-  /*font-size: x-large;*/
+  
 }
 
 .caja3 {
   
-  background-color: lightblue; /* Un fondo de color para caja 3 */
+  background-color: lightblue; 
   font-family: 'Kalam', cursive;
-  font-size: /*x-large*/;
+  
 }
 
 .caja4 {
   
-  background-color: lightblue; /* Un fondo de color para caja 4 */
+  background-color: lightblue; 
   font-family: 'Kalam', cursive;
-  font-size: /*x-large;*/
+  
 }
 
 @media (max-width: 767px) {
   .caja {
-    font-size: 18px; /* Tamaño de fuente más pequeño para dispositivos móviles */
+    font-size: 18px; 
   }
 }
 
@@ -206,6 +212,7 @@ header{
   background-color: #4f78e7;
   text-align: center;
   padding: 20px 0;
+  
 }
 
 #fondo img {
@@ -213,6 +220,7 @@ header{
   height: auto;
   display: block;
   margin: 0 auto;
+  border: 2px solid black;
 }
 
 #fondo p {
@@ -225,7 +233,7 @@ header{
 
 
 
-/* Estilos generales del footer */
+
 footer {
   background-color: #333;
   color: #fff;
@@ -240,7 +248,7 @@ footer {
   padding: 0 20px;
 }
 
-/* Estilos para los elementos del footer */
+
 .footer-content {
   display: flex;
   justify-content: space-between;
@@ -251,12 +259,12 @@ footer {
   max-width: 100px;
 }
 
-/* Establece que el logo del footer desaparezca en dispositivos móviles (ancho máximo de 767px) */
+
 @media (max-width: 767px) {
   .footer-logo img {
     display: none;
   }
- /* Centra el contenido de las dos columnas */
+ 
   .footer-content {
    text-align: center;
   }
@@ -286,7 +294,7 @@ footer {
   text-decoration: underline;
 }
 
-/* Estilos para el copyright */
+
 .copyright {
   margin-top: 20px;
   border-top: 1px solid #555;
