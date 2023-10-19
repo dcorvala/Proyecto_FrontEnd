@@ -1,18 +1,18 @@
 document.getElementById("formulario_busqueda").addEventListener("submit", function (e) {
     e.preventDefault();
     const query = document.getElementById("query").value;
-    const appId = 'de6f5afc'; // Reemplaza con tu ID de aplicación Edamam
-    const appKey = '1e36694aecdd4c0ca9b51467b8627232'; // Reemplaza con tu clave de aplicación Edamam
+    const appId = 'de6f5afc'; 
+    const appKey = '1e36694aecdd4c0ca9b51467b8627232'; 
     const resultsContainer = document.getElementById("results");
 
-    resultsContainer.innerHTML = "Buscando recetas..."; // Muestra un mensaje mientras se carga
+    resultsContainer.innerHTML = "Buscando recetas..."; 
 
-    // Realizar una solicitud a la API de Edamam
+    
     fetch(`https://api.edamam.com/search?q=${query}&app_id=${appId}&app_key=${appKey}`)
 
         .then(response => response.json())
         .then(data => {
-            resultsContainer.innerHTML = ""; // Borra el mensaje de búsqueda en progreso
+            resultsContainer.innerHTML = ""; 
 
             const hits = data.hits;
             if (hits.length === 0) {

@@ -1,7 +1,7 @@
-/* Import the Google font */
+
 @import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap');
 
-/* Global styles */
+
 body {
   background-color: #4f78e7;
   font-family: Arial, sans-serif;
@@ -12,7 +12,7 @@ body {
 
 
 
-/* Heading */
+
 h1 {
   text-align: center;
   font-size: 50px;
@@ -25,7 +25,7 @@ h1 {
   grid-area: heading;
 }
 
-/* Search form */
+
 #formulario_busqueda {
   text-align: center;
   margin: 20px auto;
@@ -34,31 +34,31 @@ h1 {
 
 @media (max-width: 767px) {
     #formulario_busqueda {
-      margin: 10px auto; /* Cambia el margen para adaptarse a pantallas pequeñas */
-      text-align: center; /* Puedes ajustar el alineamiento del texto según tus necesidades */
+      margin: 10px auto; 
+      text-align: center; 
     }
   }
 
-/* Search input field */
+
 #query {
   padding: 10px;
   width: 300px;
   font-size: 16px;
   border: 1px solid #ccc;
   border-radius: 5px;
-  margin-right: 10px; /* Espacio entre el campo de búsqueda y el botón */
+  margin-right: 10px; 
 }
 
 @media (max-width: 767px) {
     
     #query {
-        width: 80%; /* Make the search input span the full width */
+        width: 80%; 
         padding: 15px;
         font-size: 20px;
     }
 }
 
-/* Search button */
+
 button {
   background-color: lightblue;
   color: #111111;
@@ -76,24 +76,24 @@ button {
     }
 }
 
-/* Results grid */
+
 #results {
   display: grid;
   margin: 20px;
   grid-template-columns: 1fr 1fr;
-  grid-gap: 20px; /* Espacio entre las recetas */
+  grid-gap: 20px; 
 }
 
 @media (max-width: 767px) {
     #results {
-        grid-template-columns: 1fr; /* Single column layout on small screens */
+        grid-template-columns: 1fr; 
     }
 }
 
 
 
 
-/* Recipe item */
+
 .recipe {
   border: 1px solid #ccc;
   padding: 10px;
@@ -101,33 +101,33 @@ button {
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   text-align: center;
-  display: grid; /* Usamos grid para los elementos de las recetas */
-  grid-template-rows: auto 1fr auto; /* Tres filas: título, contenido, enlace */
+  display: grid; 
+  grid-template-rows: auto 1fr auto; 
 }
 
-/* Recipe image */
+
 .recipe img {
   max-width: 100%;
   height: auto;
   border-radius: 5px 5px 0 0;
-  margin: 0 auto; /* Centra la imagen horizontalmente */
+  margin: 0 auto; 
 }
 
-/* Recipe heading */
+
 .recipe h3 {
   font-size: 18px;
   margin: 10px 0;
   color: #333;
 }
 
-/* Recipe paragraph */
+
 .recipe p {
   font-size: 14px;
   color: #666;
   margin: 10px 0;
 }
 
-/* Recipe link */
+
 .recipe a {
   background-color: #007bff;
   color: #fff;
@@ -136,25 +136,25 @@ button {
   border-radius: 0 0 5px 5px;
 }
 
-/* Hover effect for recipe link */
+
 .recipe a:hover {
   background-color: #0056b3;
 }
 
-/* "Volver a Inicio" button */
 #volver_a_inicio {
-  display: grid; /* Usamos grid para el botón "Volver a Inicio" */
-  place-items: center; /* Centra el botón en el contenedor */
-  background-color: lightblue;
-  color: #0c0c0c;
-  text-align: center;
+  text-decoration: none; 
+  background-color: #3498db; 
+  color: #fff; 
+  padding: 10px 20px; 
+  border-radius: 5px; 
+  font-weight: bold; 
+  display: inline-block; 
+  margin: 10px; 
+  text-align: center; 
+  transition: background-color 0.3s; 
 }
 
-
-
-
-
-
-
-
-
+#volver_a_inicio:hover {
+  background-color: #2c3e50; 
+  color: #fff; 
+}
