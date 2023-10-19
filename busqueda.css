@@ -63,12 +63,8 @@ button {
   grid-gap: 20px; /* Espacio entre las recetas */
 }
 
-/* Media queries to adjust the grid layout for different screen sizes */
-@media (max-width: 768px) {
-  #results {
-    grid-template-columns: 1fr; /* Single column layout on small screens */
-  }
-}
+
+
 
 /* Recipe item */
 .recipe {
@@ -125,3 +121,19 @@ button {
   background-color: lightblue;
   color: #0c0c0c;
   text-align: center
+
+
+  @media (max-width: 768px) {
+    #results {
+        grid-template-columns: 1fr; /* Single column layout on small screens */
+    }
+    #query {
+        width: 100%; /* Make the search input span the full width */
+        padding: 15px;
+        font-size: 20px;
+    }
+    button {
+        padding: 15px 30px;
+        font-size: 20px;
+    }
+}
