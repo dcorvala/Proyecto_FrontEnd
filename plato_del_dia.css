@@ -1,57 +1,75 @@
-/* Estilo para el cuerpo de la página */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
     margin: 0;
     padding: 0;
+    background-color: #f7f7f7;
     text-align: center;
 }
 
-/* Estilo para el encabezado */
-h1 {
-    color: #333;
+header {
+    background-color: #4f78e7;
+    color: #fff;
     padding: 20px;
 }
 
-/* Estilo para el contenedor de la receta */
+h1 {
+    font-size: 36px;
+}
+
 #recipe-container {
     background-color: #fff;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 20px auto;
+    max-width: 600px;
 }
 
-/* Estilo para los enlaces */
-a {
-    color: #0078d4;
+#recipe-title {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+#recipe-instructions {
+    font-size: 16px;
+    margin: 20px 0;
+}
+
+#volver-a-inicio {
+    display: block;
+    background-color: #4f78e7;
+    color: #fff;
+    padding: 10px;
     text-decoration: none;
+    border-radius: 5px;
+    margin: 20px auto;
+    max-width: 200px;
 }
 
-/* Estilo para los enlaces cuando se les pasa el mouse por encima */
-a:hover {
-    text-decoration: underline;
+#volver-a-inicio:hover {
+    background-color: #337da8;
 }
 
-/* Estilo para listas no ordenadas */
-ul {
-    list-style: none;
-    padding: 0;
-}
-
-/* Estilo para los elementos de lista */
-li {
-    margin: 5px 0;
-}
-
-/* Estilo para la página en dispositivos móviles */
-@media (max-width: 600px) {
+/* Estilos para dispositivos móviles */
+@media (max-width: 768px) {
     h1 {
-        font-size: 24px;
+        font-size: 28px;
     }
+
     #recipe-container {
+        max-width: 100%;
         padding: 10px;
-        margin: 10px;
+    }
+
+    #recipe-title {
+        font-size: 20px;
+    }
+
+    #recipe-instructions {
+        font-size: 14px;
+    }
+
+    #volver-a-inicio {
+        max-width: 100%;
     }
 }
-
