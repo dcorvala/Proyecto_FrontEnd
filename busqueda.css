@@ -52,7 +52,7 @@ h1 {
 @media (max-width: 767px) {
     
     #query {
-        width: 85%; /* Make the search input span the full width */
+        width: 80%; /* Make the search input span the full width */
         padding: 15px;
         font-size: 20px;
     }
