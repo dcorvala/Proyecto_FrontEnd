@@ -121,9 +121,10 @@ button {
   background-color: lightblue;
   color: #0c0c0c;
   text-align: center
+}
 
 
-  @media (max-width: 768px) {
+@media (max-width: 768px) {
     #results {
         grid-template-columns: 1fr; /* Single column layout on small screens */
     }
