@@ -63,6 +63,13 @@ button {
   grid-gap: 20px; /* Espacio entre las recetas */
 }
 
+/* Media queries to adjust the grid layout for different screen sizes */
+@media (max-width: 768px) {
+  #results {
+    grid-template-columns: 1fr; /* Single column layout on small screens */
+  }
+}
+
 /* Recipe item */
 .recipe {
   border: 1px solid #ccc;
@@ -117,10 +124,4 @@ button {
   place-items: center; /* Centra el botón en el contenedor */
   background-color: lightblue;
   color: #0c0c0c;
-  text-align: center;
-  padding: 10px 20px;
-  font-size: 16px;
-  text-decoration: none;
-  border-radius: 5px;
-  margin: 20px auto;
-  border: 2px
+  text-align: center
