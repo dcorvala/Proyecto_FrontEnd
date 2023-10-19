@@ -29,17 +29,10 @@ h1 {
 
 #query {
     padding: 10px;
-    width: 300px;
+    width: 100%;
     font-size: 16px;
     border: 1px solid #ccc;
     border-radius: 5px;
-}
-
-@media (max-width: 767px) {
-    #query {
-        width: 100%;
-        box-sizing: border-box; /* Asegura que el padding y el borde estén incluidos en el ancho del elemento */
-    }
 }
 
 
