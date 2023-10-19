@@ -1,0 +1,60 @@
+/* Estilo para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Estilo para el encabezado */
+h1 {
+    color: #333;
+    padding: 20px;
+}
+
+/* Estilo para el contenedor de la receta */
+#recipe-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para los enlaces */
+a {
+    color: #0078d4;
+    text-decoration: none;
+}
+
+/* Estilo para los enlaces cuando se les pasa el mouse por encima */
+a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo para listas no ordenadas */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* Estilo para los elementos de lista */
+li {
+    margin: 5px 0;
+}
+
+/* Estilo para la página en dispositivos móviles */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 24px;
+    }
+    #recipe-container {
+        padding: 10px;
+    }
+}
+
+/* Estilo para imágenes */
+img {
+    max-width: 100%;
+    height: auto;
+}
