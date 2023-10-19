@@ -2,7 +2,7 @@ document.getElementById("formulario_busqueda").addEventListener("submit", functi
     e.preventDefault();
     const query = document.getElementById("query").value;
     const appId = 'de6f5afc'; // Reemplaza con tu ID de aplicación Edamam
-    const appKey = 'eeceb71b77ef8ce70fccebec760b37b4'; // Reemplaza con tu clave de aplicación Edamam
+    const appKey = '1e36694aecdd4c0ca9b51467b8627232'; // Reemplaza con tu clave de aplicación Edamam
     const resultsContainer = document.getElementById("results");
 
     resultsContainer.innerHTML = "Buscando recetas..."; // Muestra un mensaje mientras se carga

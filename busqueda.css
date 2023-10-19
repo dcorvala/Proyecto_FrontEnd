@@ -112,7 +112,7 @@ button:hover {
 }
 
 /* Consulta de medios para dispositivos móviles */
-@media (max-width: 767px) {
+@media (max-width: 768px) {
     h1 {
         font-size: 30px; /* Reducir el tamaño de fuente del título en dispositivos móviles */
     }
