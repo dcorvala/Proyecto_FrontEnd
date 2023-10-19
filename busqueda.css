@@ -61,6 +61,8 @@ button:hover {
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     text-align: center;
+    display: grid; /* Usamos grid para los elementos de las recetas */
+    grid-template-rows: auto 1fr auto; /* Tres filas: título, contenido, enlace */
 }
 
 .recipe img {
@@ -82,7 +84,6 @@ button:hover {
 }
 
 .recipe a {
-    display: block;
     background-color: #007bff;
     color: #fff;
     padding: 10px;
@@ -95,7 +96,8 @@ button:hover {
 }
 
 #volver_a_inicio {
-    display: block;
+    display: grid; /* Usamos grid para el botón "Volver a Inicio" */
+    place-items: center; /* Centra el botón en el contenedor */
     background-color: lightblue;
     color: #0c0c0c;
     text-align: center;
@@ -127,5 +129,6 @@ button:hover {
         grid-template-columns: 1fr; /* Una sola columna en dispositivos móviles */
     }
 }
+
 
 
