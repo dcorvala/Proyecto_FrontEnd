@@ -59,7 +59,7 @@ button {
     'heading heading'
     'search-form search-form'
     'results results';
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   grid-gap: 20px; /* Espacio entre las recetas */
 }
 
@@ -124,7 +124,7 @@ button {
 }
 
 
-@media (max-width: 768px) {
+@@media (max-width: 767px) {
     #results {
         grid-template-columns: 1fr; /* Single column layout on small screens */
     }
@@ -138,3 +138,9 @@ button {
         font-size: 20px;
     }
 }
+
+
+
+
+
+
