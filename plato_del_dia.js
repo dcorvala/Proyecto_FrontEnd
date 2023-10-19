@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
     // Replace 'YOUR_EDAMAM_APP_ID' and 'YOUR_EDAMAM_APP_KEY' with your actual Edamam API credentials.
     const appId = 'de6f5afc';
-    const appKey = '31a9b26561fbfdedfd6f5c012f500776';
+    const appKey = '1e36694aecdd4c0ca9b51467b8627232';
 
     const recipeContainer = document.getElementById("recipe-container");
 
