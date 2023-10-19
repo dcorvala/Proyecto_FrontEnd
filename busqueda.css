@@ -120,7 +120,7 @@ button {
   place-items: center; /* Centra el botón en el contenedor */
   background-color: lightblue;
   color: #0c0c0c;
-  text-align: center
+  text-align: center;
 }
 
 
