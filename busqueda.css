@@ -10,6 +10,8 @@ body {
   font-size: 16px;
 }
 
+
+
 /* Heading */
 h1 {
   text-align: center;
@@ -30,6 +32,13 @@ h1 {
   grid-area: search-form;
 }
 
+@media (max-width: 767px) {
+    #formulario_busqueda {
+      margin: 10px auto; /* Cambia el margen para adaptarse a pantallas pequeñas */
+      text-align: center; /* Puedes ajustar el alineamiento del texto según tus necesidades */
+    }
+  }
+
 /* Search input field */
 #query {
   padding: 10px;
@@ -43,7 +52,7 @@ h1 {
 @media (max-width: 767px) {
     
     #query {
-        width: 100%; /* Make the search input span the full width */
+        width: 85%; /* Make the search input span the full width */
         padding: 15px;
         font-size: 20px;
     }
