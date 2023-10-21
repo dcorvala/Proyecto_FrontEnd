@@ -14,23 +14,42 @@
 
     <script src="js/script.js"></script>
 
+    <style>
+    .volver {
+        text-align: center;
+        margin-top: 20px;
+    }
+    
+    .volver a {
+        text-decoration: none;
+        background-color: #5f25e7; 
+        color: #fff;
+        padding: 10px 20px;
+        border-radius: 5px;
+    }
+    
+    .volver a:hover {
+        background-color: #2a0d91; 
+    }
+    </style>
+
 
 </head>
 <body>
   <header>
   <h1 class="animate__animated animate__slideInLeft">
-    Delicias Culinarias: Sabores que Encantan y Recetas que Despiertan Pasiones
+    <a href="index.html" style="text-decoration: none; color: inherit; display: block; text-align: center;">Delicias Culinarias: Sabores que Encantan y Recetas que Despiertan Pasiones</a>
   </h1>
 </header>
   
 <nav id="navegacion"> 
-  <ul id="barra_nav">
-     <li> <a href="recetas.html">Recetas Argentinas</a> </li>
-     <li> <a href="libros.html">Libros</a> </li>
-     <li> <a href="cursos.html">Cursos</a> </li>
-     <li> <a href="contacto.html">Contacto</a> </li>
-   </ul>
-</nav>
+    <ul id="barra_nav">
+       <li> <span class="material-symbols-outlined">skillet_cooktop</span> <a href="recetas.html">Recetas Argentinas</a> </li>
+       <li> <span class="material-symbols-outlined">book_3</span> <a href="libros.html">Libros</a> </li>
+       <li> <span class="material-symbols-outlined">school</span> <a href="cursos.html">Cursos</a> </li>
+       <li> <span class="material-symbols-outlined"> alternate_email </span><a href="contacto.html">Contacto</a> </li>
+     </ul>
+  </nav>
    
    <main role="main" class="container">
     <div class="row">
@@ -65,6 +84,10 @@
         </div>
     </div>
     </main>
+
+    <div class="volver">
+        <a href="index.html">Volver a la Página Principal</a>
+    </div>
 
 
 

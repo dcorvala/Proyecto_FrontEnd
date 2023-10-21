@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Delicias Culinarias</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">    
+    <link rel="stylesheet" href="css/style.css"> 
+    
+
     <link rel="icon" href="imagenes/gorro-de-cocinero.png">
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
@@ -14,34 +16,106 @@
 
     <script src="js/script.js"></script>
 
+    <style>
+        body {
+            background-color: #d2d6e6; /* Código hexadecimal para el color celeste */
+        }
+
+        main {
+            padding: 20px; /* Espacio alrededor del contenido para mejorar la apariencia */
+        }
+    </style>
+    
+
 
 </head>
 <body>
   <header>
   <h1 class="animate__animated animate__slideInLeft">
-    Delicias Culinarias: Sabores que Encantan y Recetas que Despiertan Pasiones
+    <a href="index.html" style="text-decoration: none; color: inherit; display: block; text-align: center;">Delicias Culinarias: Sabores que Encantan y Recetas que Despiertan Pasiones</a>
   </h1>
+<style>
+.volver {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.volver a {
+    text-decoration: none;
+    background-color: #5f25e7; 
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.volver a:hover {
+    background-color: #2a0d91; 
+}
+
+</style>
+
 </header>
   
 <nav id="navegacion"> 
-  <ul id="barra_nav">
-     <li> <a href="recetas.html">Recetas Argentinas</a> </li>
-     <li> <a href="libros.html">Libros</a> </li>
-     <li> <a href="cursos.html">Cursos</a> </li>
-     <li> <a href="contacto.html">Contacto</a> </li>
-   </ul>
-</nav>
+    <ul id="barra_nav">
+       <li> <span class="material-symbols-outlined">skillet_cooktop</span> <a href="recetas.html">Recetas Argentinas</a> </li>
+       <li> <span class="material-symbols-outlined">book_3</span> <a href="libros.html">Libros</a> </li>
+       <li> <span class="material-symbols-outlined">school</span> <a href="cursos.html">Cursos</a> </li>
+       <li> <span class="material-symbols-outlined"> alternate_email </span><a href="contacto.html">Contacto</a> </li>
+     </ul>
+  </nav>
    
 <main role="main" class="container">
     <div class="row">
-        <!-- Aquí pon las col-x necesarias, comienza tu contenido, etcétera -->
         <div class="col-12">
-            <h1>Cursos..</h1>
+            <h1>Cursos de Cocina</h1>
         </div>
-        
-    </div>
-    </main>
 
+        <div class="col-12 col-md-6">
+            <ul class="course-list">
+                <li>
+                    <span class="material-symbols-outlined">🍳</span> <h2>Curso de Cocina Italiana</h2>
+                    <p>¡Aprende a preparar auténtica comida italiana con nuestros expertos chefs! Descubre los secretos detrás de las pastas frescas, las salsas y los postres más deliciosos.</p>
+                    <a href="curso1.html" class="btn btn-primary">Ir al curso</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="col-12 col-md-6">
+            <ul class="course-list">
+                <li>
+                    <span class="material-symbols-outlined">🍣</span> <h2>Curso de Cocina Asiática</h2>
+                    <p>Explora la riqueza de sabores de la cocina asiática. Desde sushi y tempura japonesa hasta curry tailandés, este curso te llevará a un viaje culinario emocionante.</p>
+                    <a href="curso2.html" class="btn btn-primary">Ir al curso</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="col-12 col-md-6">
+            <ul class="course-list">
+                <li>
+                    <span class="material-symbols-outlined">🍰</span> <h2>Curso de Repostería Creativa</h2>
+                    <p>¿Eres un amante de los postres? Únete a nuestro curso de repostería creativa y aprende a hacer deliciosos pasteles, cupcakes y galletas decoradas.</p>
+                    <a href="curso3.html" class="btn btn-primary">Ir al curso</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="col-12 col-md-6">
+            <ul class="course-list">
+                <li>
+                    <span class "material-symbols-outlined">🥗</span> <h2>Curso de Cocina Saludable</h2>
+                    <p>Descubre cómo cocinar platos deliciosos y saludables. Nuestro curso te enseñará a preparar comidas nutritivas y equilibradas sin comprometer el sabor.</p>
+                    <a href="curso4.html" class="btn btn-primary">Ir al curso</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</main>
+
+<div class="volver">
+    <a href="index.html">Volver a la Página Principal</a>
+</div>
 
 
   <footer>
@@ -71,3 +145,5 @@
 
 </body>
 </html>
+
+
