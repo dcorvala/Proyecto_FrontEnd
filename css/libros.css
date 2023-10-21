@@ -1,27 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f7f7f7;
+    background-color: #4f78e7;
 }
 
-header {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 20px 0;
-}
-
-h1 {
-    font-size: 32px;
+*{
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
+h1{color:rgb(0, 0, 0);
+   font-size: 60px;
+   font-weight:bold;
+   /* background-color: #FF7F50;*/
+   text-align: center;
+   font-family: Dancing Script;
+}
+
+@media (max-width: 768px) {
+  h1{
+      font-size: 35px; 
+      
+  }
+}
+
+header{
+  background-image: url('../imagenes/Portadav2.jpg');
+  background-size: cover;
+  border: 2px solid black; 
+  
+}
+
+#barra_nav {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 10px;
+  padding: 0;
+  margin: 0;
+}
+
+#barra_nav li {
+  text-align: center;
+  border: 1px solid blue;
+  background-color: rgb(128, 240, 128);
+  padding: 10px;
+}
+
+@media (min-width: 768px) {
+  #barra_nav {
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: auto;
+  }
+}
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+#navegacion{
+    background-color: #e9b4dc;
+    font-family: Handlee;
+    font-weight: 700;
+    text-align: center;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    margin: 20px;
+    
+  }
+  
+  #navegacion a{
+    padding: 10px;
+  }
+  
+  
+  #navegacion #barra_nav li{
+      color: blue;
+      list-style-type: none ;
+      display: inline;
+  }
+  
+  /*#navegacion #barra_nav li>a:hover{
+      color: blue;
+      background-color: white;
+      transition: 1s ;
+  }*/
+  
+  #navegacion #barra_nav li:hover{
+      color: blue;
+      background-color: white;
+      transition: 1s ;
+  }
+  
+  #navegacion #barra_nav li>a:active{
+      color: #00FFFF;
+      background-color: white;
+  }
+      
+  #navegacion #barra_nav li>a{
+        text-decoration: none;
+  }
+  
+  
+
 
 main {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #fff;
+    background-color: lightblue;
     border: 1px solid #ccc;
     border-radius: 5px;
 }
@@ -57,10 +156,92 @@ li a:hover {
     color: #555;
 }
 
-footer {
+.volver {
     text-align: center;
-    padding: 10px 0;
+    margin-top: 20px;
+}
+
+.volver a {
+    text-decoration: none;
+    background-color: #5f25e7; 
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.volver a:hover {
+    background-color: #2a0d91; 
+}
+
+footer {
     background-color: #333;
     color: #fff;
+    padding: 20px 0;
     font-size: 14px;
+    text-align: center;
 }
+  
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+  
+  
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+  
+.footer-logo img {
+    max-width: 100px;
+}
+  
+  
+@media (max-width: 767px) {
+    .footer-logo img {
+      display: none;
+    }
+   
+    .footer-content {
+     text-align: center;
+     font-size: 10px;
+    }
+  
+  
+}
+  
+.footer-contact p {
+    margin: 5px 0;
+}
+  
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+  
+.footer-links li {
+    margin: 5px 0;
+    background-color: #333;
+    border: none;
+}
+  
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+    
+}
+  
+.footer-links a:hover {
+    text-decoration: underline;
+}
+  
+  
+.copyright {
+    margin-top: 20px;
+    border-top: 1px solid #555;
+    padding-top: 10px;
+    font-size: 12px;
+}
+

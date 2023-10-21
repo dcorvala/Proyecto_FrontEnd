@@ -139,12 +139,82 @@ header{
 
 .volver a {
     text-decoration: none;
-    background-color: #FF6600; 
+    background-color: #5f25e7; 
     color: #fff;
     padding: 10px 20px;
     border-radius: 5px;
 }
 
 .volver a:hover {
-    background-color: #CC4400; 
+    background-color: #2a0d91; 
 }
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    font-size: 14px;
+    text-align: center;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer-logo img {
+    max-width: 100px;
+  }
+  
+  
+  @media (max-width: 767px) {
+    .footer-logo img {
+      display: none;
+    }
+   
+    .footer-content {
+     text-align: center;
+     font-size: 10px;
+    }
+  
+  
+  }
+  
+  .footer-contact p {
+    margin: 5px 0;
+  }
+  
+  .footer-links ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-links li {
+    margin: 5px 0;
+  }
+  
+  .footer-links a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .footer-links a:hover {
+    text-decoration: underline;
+  }
+  
+  
+  .copyright {
+    margin-top: 20px;
+    border-top: 1px solid #555;
+    padding-top: 10px;
+    font-size: 12px;
+  }
+  

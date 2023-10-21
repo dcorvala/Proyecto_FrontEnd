@@ -7,11 +7,27 @@
     <link rel="stylesheet" href="css/libros.css">
     <link rel="icon" href="imagenes/gorro-de-cocinero.png">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+   
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
 </head>
 <body>
+    
     <header>
-        <h1>Listado de Libros para Descarga</h1>
-    </header>
+        <h1 class="animate__animated animate__slideInLeft">
+          Delicias Culinarias: Sabores que Encantan y Recetas que Despiertan Pasiones
+        </h1>
+      </header>
+        
+      <nav id="navegacion"> 
+        <ul id="barra_nav">
+           <li> <span class="material-symbols-outlined">skillet_cooktop</span> <a href="recetas.html">Recetas Argentinas</a> </li>
+           <li> <span class="material-symbols-outlined">book_3</span> <a href="libros.html">Libros</a> </li>
+           <li> <span class="material-symbols-outlined">school</span> <a href="cursos.html">Cursos</a> </li>
+           <li> <span class="material-symbols-outlined"> alternate_email </span><a href="contacto.html">Contacto</a> </li>
+         </ul>
+      </nav>
 
     <main>
         <section id="libros">
@@ -24,9 +40,34 @@
             </ul>
         </section>
     </main>
+    <div class="volver">
+        <a href="index.html">Volver a la Página Principal</a>
+    </div>
+
+    </html>
 
     <footer>
-        <p>&copy; 2023 Tu Sitio Web. Todos los derechos reservados.</p>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="imagenes/gorro-de-cocinero.png" alt="Logo de Delicias Culinarias">
+                </div>
+                <div class="footer-contact">
+                    <p>Contacto: info@deliciasculinarias.com</p>
+                    <p>Teléfono: +54 11 10101010</p>
+                </div>
+                <div class="footer-links">
+                    <ul>
+                        <li><a href="politica-de-privacidad.html">Política de Privacidad</a></li>
+                        <li><a href="terminos-de-servicio.html">Términos de Servicio</a></li>
+                        
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                &copy; 2023 Delicias Culinarias. Todos los derechos reservados.
+            </div>
+        </div>
     </footer>
 </body>
-</html>
+

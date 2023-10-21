@@ -273,6 +273,7 @@ footer {
  
   .footer-content {
    text-align: center;
+   font-size: 10px;
   }
 
 
@@ -289,6 +290,7 @@ footer {
 
 .footer-links li {
   margin: 5px 0;
+  
 }
 
 .footer-links a {
