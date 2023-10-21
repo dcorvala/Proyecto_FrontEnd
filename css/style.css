@@ -106,7 +106,13 @@ header{
     display: inline;
 }
 
-#navegacion #barra_nav li>a:hover{
+/*#navegacion #barra_nav li>a:hover{
+    color: blue;
+    background-color: white;
+    transition: 1s ;
+}*/
+
+#navegacion #barra_nav li:hover{
     color: blue;
     background-color: white;
     transition: 1s ;
